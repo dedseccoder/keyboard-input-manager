@@ -19,11 +19,11 @@ public:
 					cout << endl << "loop while stoped" << endl;
 					break;
 				}
+				cout << endl;
 				if (button == '`')
 				{
 					system("CLS");
 				}
-				cout << endl;
 			}
 		}
 		return;
