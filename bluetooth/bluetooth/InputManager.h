@@ -7,12 +7,15 @@ using namespace std;
 class InputManager
 {
 public:
+	//use for more fust development
 	void input()
 	{
 		while (true)
 		{
+			//_kbhit return true if button pushed
 			if (_kbhit())
 			{
+				//_geche returns pushed button
 				button = _getche();
 				if (button == '')
 				{
